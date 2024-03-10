@@ -25,7 +25,7 @@ export default function handler(req: any, res: any) {
 
       if (err) {
         res.status(404).json({
-            error: `Connection refused at ${err.address}`
+            error: `Connection refused at ${err}`
         });
       } else {
         res.status(250).json({
