@@ -1,0 +1,26 @@
+.footer {
+	position: sticky;
+	bottom: 0;
+	z-index: 2;
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+	padding: 20px 40px;
+	@media (max-width: 1000px) {
+		padding: 20px 20px;
+	}
+	color: #919191;
+	a {
+		color: #919191;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	border-top: 1px solid #333333;
+	.items {
+		display: flex;
+		gap: 15px;
+	}
+}

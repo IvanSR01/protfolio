@@ -1,0 +1,96 @@
+.section {
+	main {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 40px;
+		padding: 60px;
+		@media (max-width: 1000px) {
+			padding: 20px;
+		}
+		h3 {
+			font-size: 18px;
+			color: #fff;
+		}
+		.contact {
+			margin-left: 30px;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 40px;
+			max-width: 830px;
+			width: 40vw;
+			@media (max-width: 1000px) {
+				width: 90vw;
+				margin-left: 0;
+			}
+			color: #969696;
+			.item {
+				display: flex;
+				gap: 20px;
+				width: 30vw;
+				@media (max-width: 1000px) {
+					width: 90vw;
+				}
+				max-width: 500px;
+				p {
+					margin-top: 10px;
+				}
+			}
+			img {
+				cursor: pointer;
+				height: 70px;
+				width: 70px;
+			}
+		}
+		.form {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			max-width: 800px;
+			width: 60vw;
+			@media (max-width: 1000px) {
+				width: 90vw;
+				margin-left: 0;
+			}
+			input {
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 35px;
+				letter-spacing: 0%;
+				border: 2px solid #555555;
+				color: #fff;
+				outline: none;
+				max-width: 380px;
+				padding: 5px 10px;
+				border-radius: 5px;
+				width: 40vw;
+				background-color: transparent;
+				@media (max-width: 1000px) {
+					width: 90vw;
+					margin-left: 0;
+				}
+			}
+			textarea {
+				line-height: 35px;
+				letter-spacing: 0%;
+				border: 2px solid #555555;
+				color: #fff;
+				outline: none;
+				max-width: 400px;
+				height: 150px;
+				padding: 5px 10px;
+				border-radius: 5px;
+				width: 40vw;
+				background-color: transparent;
+				@media (max-width: 1000px) {
+					width: 90vw;
+					margin-left: 0;
+				}
+			}
+		}
+		button {
+			margin-top: 10px;
+		}
+	}
+}

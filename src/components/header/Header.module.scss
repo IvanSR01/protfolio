@@ -1,0 +1,14 @@
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 40px;
+	@media (max-width: 1000px) {
+		padding: 0 20px;
+	}
+	color: #fff;
+}
