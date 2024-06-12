@@ -42,7 +42,7 @@ const FirstSection: FC = () => {
 					className={styles.item}
 				>
 					<span>Full Stack Developer</span>
-					<h1 className={styles.title}>Ivan S</h1>
+					<h1 className={styles.title}>Ivan S(Nelson)</h1>
 					<p className={styles.subText}>
 						Do you need to create a website ? When creating a website, I ensure
 						the overall design from design to implementation. I also ensure the
